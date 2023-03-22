@@ -10,7 +10,7 @@ def save_new_student(name, age, address):
     conn = psycopg2.connect(
         dbname='postgres', 
         user='postgres', 
-        password='isa20', 
+        password='', 
         host='localhost',
         port='5432'
     )
